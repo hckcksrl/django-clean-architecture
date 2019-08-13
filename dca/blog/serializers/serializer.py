@@ -34,10 +34,8 @@ class GetPostRequestSerializer(serializers.Serializer):
     #         'author':instance.author
     #     }
 
-class CreatePostSerializer(serializers.BaseSerializer):
-    title = serializers.CharField
-    content = serializers.CharField
-    created_at = serializers.DateTimeField
-    updated_at = serializers.DateTimeField
-    author = UserSerializer
+class CreatePostSerializer(serializers.Serializer):
+    title = serializers.CharField(required=True)
+    content = serializers.CharField(required=True)
+    author = UserSerializer(required=True)
 

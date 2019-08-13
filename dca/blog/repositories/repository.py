@@ -1,15 +1,20 @@
-from ..entities.entity import PostEntity
 import abc
 from ..models.model import Post
 from ..convert.convert import PostConvert
-from ..serializers.serializer import GetPostRequestSerializer
+from ..entities.entity import PostEntity
 from django.contrib.auth.models import User
+# from ..serializers.serializer import GetPostRequestSerializer
+# from django.contrib.auth.models import User
 
 class PostABCRepository:
     __metaclass__ = abc.ABCMeta
 
     @abc.abstractmethod
     def get_post(self, post_id:int):
+        pass
+
+    @abc.abstractmethod
+    def create_post(self, entity:PostEntity):
         pass
 
 
@@ -22,4 +27,11 @@ class PostRepository(PostABCRepository):
         if post is None :
             raise Exception('Not Found Error')
         # return self.convert.post_model_to_entity(model=post)
+        return post
+
+    def create_post(self, entity:PostEntity):
+        user = User.objects.get(username=entity.author['username'])
+        entity.author = user
+        post_dict = self.convert.post_entity_to_dict(entity=entity)
+        post = Post(**post_dict).save()
         return post

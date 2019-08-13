@@ -12,7 +12,10 @@ class UserDto:
 class CreatePostDto:
     title: str = None
     content: str = None
-    created_at: datetime = None
-    updated_at: datetime = None
     author: UserDto = None
 
+
+@dataclass
+class PostListDto:
+    offset: int = None
+    limit: int = None
