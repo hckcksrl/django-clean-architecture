@@ -37,3 +37,10 @@ class CreatePostInteractor(PostInteractor):
         )
 
         return self.repository.create_post(entity=post_entity)
+
+class GetPostListInteractor(PostInteractor):
+    def __init__(self):
+        super().__init__()
+
+    def execute(self):
+        return self.repository.get_post_list()

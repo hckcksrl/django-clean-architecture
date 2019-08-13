@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e686cf12-4ba5-4486-a893-613db66e66d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dca/blog/convert/convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/blog/convert/convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dca/blog/dtos/dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/blog/dtos/dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dca/blog/interactors/interactor.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/blog/interactors/interactor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dca/blog/repositories/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/blog/repositories/repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dca/blog/serializers/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/blog/serializers/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dca/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dca/blog/views/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/blog/views/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dca/dca/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dca/dca/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dca/blog/serializers/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="57">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -55,13 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dca/blog/views/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dca/blog/repositories/repository.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="263">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -127,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dca/blog/interactors/interactor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="118">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -162,13 +158,13 @@
         <option value="$PROJECT_DIR$/dca/blog/models/model.py" />
         <option value="$USER_HOME$/.local/share/virtualenvs/django-clean-architecture-TXhbmfIi/lib/python3.7/site-packages/django/forms/models.py" />
         <option value="$PROJECT_DIR$/dca/dca/urls.py" />
-        <option value="$PROJECT_DIR$/dca/blog/interactors/interactor.py" />
         <option value="$PROJECT_DIR$/dca/blog/convert/convert.py" />
         <option value="$PROJECT_DIR$/dca/blog/serializers/serializer.py" />
-        <option value="$PROJECT_DIR$/dca/blog/repositories/repository.py" />
         <option value="$PROJECT_DIR$/dca/blog/urls.py" />
         <option value="$PROJECT_DIR$/dca/blog/dtos/dto.py" />
+        <option value="$PROJECT_DIR$/dca/blog/interactors/interactor.py" />
         <option value="$PROJECT_DIR$/dca/blog/views/view.py" />
+        <option value="$PROJECT_DIR$/dca/blog/repositories/repository.py" />
       </list>
     </option>
   </component>
@@ -313,11 +309,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.242741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.242741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4234694" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.4234694" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -526,16 +522,6 @@
     <entry file="file://$PROJECT_DIR$/dca/blog/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dca/blog/convert/convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/share/virtualenvs/django-clean-architecture-TXhbmfIi/lib/python3.7/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
@@ -556,26 +542,6 @@
           <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dca/blog/interactors/interactor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dca/blog/repositories/repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,20 +578,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dca/blog/serializers/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        <state relative-caret-position="57">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dca/blog/interactors/interactor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dca/blog/convert/convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dca/blog/views/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dca/blog/repositories/repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

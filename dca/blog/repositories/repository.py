@@ -17,6 +17,9 @@ class PostABCRepository:
     def create_post(self, entity:PostEntity):
         pass
 
+    def get_post_list(self):
+        pass
+
 
 class PostRepository(PostABCRepository):
     def __init__(self):
@@ -34,4 +37,11 @@ class PostRepository(PostABCRepository):
         entity.author = user
         post_dict = self.convert.post_entity_to_dict(entity=entity)
         post = Post(**post_dict).save()
+        return post
+
+    def get_post_list(self):
+        post = Post.objects.all()
+        if post is None:
+            raise Exception('Not Found Error')
+
         return post
