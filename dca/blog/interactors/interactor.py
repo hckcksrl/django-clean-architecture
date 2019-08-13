@@ -44,3 +44,10 @@ class GetPostListInteractor(PostInteractor):
 
     def execute(self):
         return self.repository.get_post_list()
+
+class DeletePostInteractor(PostInteractor):
+    def __init__(self):
+        super().__init__()
+
+    def execute(self, post_id: int):
+        return self.repository.delete_post(post_id=post_id)

@@ -20,6 +20,9 @@ class PostABCRepository:
     def get_post_list(self):
         pass
 
+    def delete_post(self, post_int:int):
+        pass
+
 
 class PostRepository(PostABCRepository):
     def __init__(self):
@@ -45,3 +48,10 @@ class PostRepository(PostABCRepository):
             raise Exception('Not Found Error')
 
         return post
+
+    def delete_post(self, post_id:int):
+        post = self.get_post(post_id=post_id)
+        if post is None :
+            return False
+        post.delete()
+        return True

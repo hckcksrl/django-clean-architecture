@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.request import Request
 from rest_framework import status
 from ..serializers.serializer import GetPostRequestSerializer,UserSerializer,CreatePostSerializer
-from ..interactors.interactor import GetPostInteractor,CreatePostInteractor,GetPostListInteractor
+from ..interactors.interactor import GetPostInteractor,CreatePostInteractor,GetPostListInteractor,DeletePostInteractor
 from ..dtos.dto import CreatePostDto,PostListDto
 
 class Post(APIView):
@@ -14,6 +14,11 @@ class Post(APIView):
         serializer = GetPostRequestSerializer(post)
         return Response(data=serializer.data, status=status.HTTP_200_OK)
 
+    def delete(self, request: Request, post_id: int)-> Union[Response,NoReturn]:
+        post = DeletePostInteractor().execute(post_id=post_id)
+        if post is False :
+            return Response(status=status.HTTP_400_BAD_REQUEST)
+        return Response(status=status.HTTP_202_ACCEPTED)
 
 class Blog(APIView):
 
