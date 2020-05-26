@@ -18,16 +18,10 @@ class PostInteractor:
         self.repository = PostRepository()
 
 class GetPostInteractor(PostInteractor):
-    def __init__(self):
-        super().__init__()
-
     def execute(self, post_id):
         return self.repository.get_post(post_id = post_id)
 
 class CreatePostInteractor(PostInteractor):
-    def __init__(self):
-        super().__init__()
-
     def execute(self, post_dto: CreatePostDto ):
 
         post_entity = PostEntity(
@@ -39,15 +33,9 @@ class CreatePostInteractor(PostInteractor):
         return self.repository.create_post(entity=post_entity)
 
 class GetPostListInteractor(PostInteractor):
-    def __init__(self):
-        super().__init__()
-
     def execute(self):
         return self.repository.get_post_list()
 
 class DeletePostInteractor(PostInteractor):
-    def __init__(self):
-        super().__init__()
-
     def execute(self, post_id: int):
         return self.repository.delete_post(post_id=post_id)
